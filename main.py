@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 plotting.setup_mpl()
 
 
-race = ff1.get_session(2020, 'Turkish Grand Prix', 'R')
+race = ff1.get_session(2021, 'Austrian Grand Prix', 'R')
 laps = race.load_laps()
 
 lec = laps.pick_driver('LEC')
